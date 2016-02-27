@@ -1,0 +1,15 @@
+POST http://localhost:203/1.0/Publish?format= HTTP/1.1
+Accept: application/bson; q=0.7, application/json, application/xml; q=0.7
+Content-Type: application/json; charset=utf-8
+Host: localhost:203
+Content-Length: 2096
+Expect: 100-continue
+Connection: Keep-Alive
+
+{"Value":[{"subscriptionId":"d3b9c948-24f1-4fdb-a5d2-b597e22dbdc0","changeType":"Create","resource":"http://test/users/4b6ad9dc-ef56-4978-95a3-a8b71f167a53","tenantId":null,"clientState":null,"resourceData":null},{"subscriptionId":"d3b9c948-24f1-4fdb-a5d2-b597e22dbdc0","changeType":"Create","resource":"http://test/users/678f1640-3a40-4e6c-8d45-37c7743c0c82","tenantId":null,"clientState":null,"resourceData":null},{"subscriptionId":"d3b9c948-24f1-4fdb-a5d2-b597e22dbdc0","changeType":"Create","resource":"http://test/users/a2ca8a07-ec83-499f-891d-235aac075fff","tenantId":null,"clientState":null,"resourceData":null},{"subscriptionId":"d3b9c948-24f1-4fdb-a5d2-b597e22dbdc0","changeType":"Update","resource":"http://test/users/64050e71-f1bd-44e2-a2ea-78a1aefcf8f4","tenantId":null,"clientState":null,"resourceData":null},{"subscriptionId":"d3b9c948-24f1-4fdb-a5d2-b597e22dbdc0","changeType":"Create","resource":"http://test/users/47b564e1-39aa-47f5-bac4-4d457a0bbff5","tenantId":null,"clientState":null,"resourceData":null},{"subscriptionId":"d3b9c948-24f1-4fdb-a5d2-b597e22dbdc0","changeType":"Update","resource":"http://test/users/c89d8459-50b4-4e67-b0c4-c48ee3ccd846","tenantId":null,"clientState":null,"resourceData":null},{"subscriptionId":"d3b9c948-24f1-4fdb-a5d2-b597e22dbdc0","changeType":"Create","resource":"http://test/users/091fc6e3-0f6e-4ed4-9bda-ea1b19cc7ee7","tenantId":null,"clientState":null,"resourceData":null},{"subscriptionId":"d3b9c948-24f1-4fdb-a5d2-b597e22dbdc0","changeType":"Update","resource":"http://test/users/339209cf-41d5-4357-8cfd-0dc7c4dd1547","tenantId":null,"clientState":null,"resourceData":null},{"subscriptionId":"d3b9c948-24f1-4fdb-a5d2-b597e22dbdc0","changeType":"Create","resource":"http://test/users/277dcc40-dbea-4edc-a872-002351f9809b","tenantId":null,"clientState":null,"resourceData":null},{"subscriptionId":"d3b9c948-24f1-4fdb-a5d2-b597e22dbdc0","changeType":"Create","resource":"http://test/users/afe0f40f-068a-4f01-8743-450ecfe0c416","tenantId":null,"clientState":null,"resourceData":null}],"CorrelationId":"00000000-0000-0000-0000-000000000000"}
+HTTP/1.1 200 OK
+Content-Length: 0
+Server: Microsoft-HTTPAPI/2.0
+request-id: 3b9933ce-100e-41b5-b184-8b99ee0e4c90
+Date: Thu, 04 Feb 2016 00:56:15 GMT
+

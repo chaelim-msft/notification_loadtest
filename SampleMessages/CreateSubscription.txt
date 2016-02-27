@@ -1,0 +1,26 @@
+POST http://localhost:202/1.0/subscriptions HTTP/1.1
+OData-Version: 4.0
+OData-MaxVersion: 4.0
+Content-Type: application/json;odata.metadata=minimal
+Accept: application/json;odata.metadata=minimal
+Accept-Charset: UTF-8
+User-Agent: Microsoft ADO.NET Data Services
+Authorization: 
+Host: localhost:202
+Content-Length: 942
+Expect: 100-continue
+Connection: Keep-Alive
+
+{"@odata.type":"#Microsoft.WindowsAzure.ActiveDirectory.Notifications.Subscription","applicationId":"5a200326-91f0-4c9e-b055-6beea47f8b40","changeType":"Created","clientState":"SimpleLoadTest","created":null,"entityId":"d001261e-8368-416c-abeb-fd50693cd0ca","entityType":"User","eTag":null,"externalId":null,"modified":null,"notificationUrl":"https://localhost:65050/notifications","partitionHash":null,"resource":"users","secret":null,"sequenceNumber":null,"source":null,"status":null,"subscriptionAuthenticationToken":null,"subscriptionExpirationDateTime":null,"subscriptionId":"","suspended":null,"suspendReason":null,"tenantId":"d620a974-b41a-4677-9d51-f0011a3eb96f","tenantOwnerId":"f60c8f7e-ce23-429b-948f-45d0025daf06","workloadConfiguration":null,"workloadInternalState":null,"workloadNamespace":"AzureActiveDirectory","workloadPartition":null,"workloadResource":"https://graph.windows.net/d620a974-b41a-4677-9d51-f0011a3eb96f/users"}
+HTTP/1.1 201 Created
+Content-Length: 1002
+Content-Type: application/json; odata.metadata=minimal; charset=utf-8
+Location: http://localhost:202/1.0/subscriptions('d7290709-61d3-4a09-b43c-a1e5f1613c4f')
+Server: Microsoft-HTTPAPI/2.0
+request-id: bdadcf43-b88d-4172-91a3-f05fec7f8f18
+OData-Version: 4.0
+Date: Wed, 03 Feb 2016 22:42:58 GMT
+
+{
+  "@odata.context":"http://localhost:202/1.0/$metadata#subscriptions/$entity","subscriptionId":"d7290709-61d3-4a09-b43c-a1e5f1613c4f","resource":"users","tenantId":"d620a974-b41a-4677-9d51-f0011a3eb96f","entityType":"User","entityId":"d001261e-8368-416c-abeb-fd50693cd0ca","tenantOwnerId":"f60c8f7e-ce23-429b-948f-45d0025daf06","applicationId":"5a200326-91f0-4c9e-b055-6beea47f8b40","partitionHash":null,"workloadNamespace":"AzureActiveDirectory","changeType":"Created","clientState":"SimpleLoadTest","notificationUrl":"https://localhost:65050/notifications","workloadConfiguration":null,"workloadInternalState":null,"workloadPartition":null,"workloadResource":"https://graph.windows.net/d620a974-b41a-4677-9d51-f0011a3eb96f/users","suspended":null,"suspendReason":null,"subscriptionExpirationDateTime":"2016-02-06T22:42:59.416712Z","source":null,"externalId":null,"created":null,"modified":null,"eTag":null,"secret":null,"subscriptionAuthenticationToken":null,"sequenceNumber":null,"status":null
+}

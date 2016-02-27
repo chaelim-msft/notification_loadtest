@@ -1,0 +1,14 @@
+{
+    "subscriptionId": "5609f9a2-a97d-43ae-affa-8be24e781962",
+    "changeType": "Created",
+    "notificationUrl": "http:\/\/localhost:65000\/notification",
+    "clientState": "SimpleLoadTest",
+    "workloadNamespace": "Microsoft.Exchange",
+    "workloadResource": "https:\/\/graph.windows.net\/d620a974-b41a-4677-9d51-f0011a3eb96f\/users",
+    "resource": "users",
+    "tenantId": "d620a974-b41a-4677-9d51-f0011a3eb96f",
+    "entityType": "User",
+    "entityId": "d001261e-8368-416c-abeb-fd50693cd0ca",
+    "tenantOwnerId": "f60c8f7e-ce23-429b-948f-45d0025daf06",
+    "applicationId": "5a200326-91f0-4c9e-b055-6beea47f8b40"
+}
